@@ -1,11 +1,23 @@
 package classes;
-
+  
 public class Playlist {
   private String name;
   private String autor;
   private float duracao;
 
+  
 
 
+}
 
+public String getName{
+  return this.name;
+}
+
+public String getAturo{
+  return this.autor;
+}
+
+public float getDuracao{
+  return this.duracao;
 }
