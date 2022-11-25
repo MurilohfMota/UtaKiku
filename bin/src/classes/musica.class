@@ -4,7 +4,19 @@ public class Music{
   private String nome;
   private String genero;
   private String autor;
-  // teste
-  //opa
+  
+}
 
+public String getNome{
+  return thi.nome;
+}
+public String getGenero{
+  return this.gereno;
+}
+public String getAutor{
+  return this.autor;
+}
+
+public void setNome(nome){
+  this.nome = nome;
 }
