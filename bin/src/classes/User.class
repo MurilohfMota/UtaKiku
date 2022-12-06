@@ -1,10 +1,10 @@
 package classes;
 
 public class User{
-  private String name;
-  private String id;
-  private String email;
-  private Boolean adm;
+  private String name;// nome do usuario
+  private String id;//codigo de identificaçao do usuario dentro do sistema
+  private String email;//email do usuario
+  private Boolean adm; // if true user = adm, if false user = user;
 
 
   //-------------------------------------getters and setters-----------------------//
@@ -38,4 +38,10 @@ public class User{
   public void setAdm(Boolean adm){
     this.adm = adm;
   }
+
+
+
+
+
+  
 }
