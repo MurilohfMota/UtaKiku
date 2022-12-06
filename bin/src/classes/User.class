@@ -7,9 +7,9 @@ public class User{
   private String password; // senha do usuario
   private Boolean adm; // if true user = adm, if false user = user;
   
-  private ArrayList<Music> = new ArrayList<>()
+  private ArrayList<Music> = new ArrayList<>();
   
-  private ArrayList<Playlist> = new ArrayList<>()
+  private ArrayList<Playlist> = new ArrayList<>();
   //-------------------------------------getters and setters-----------------------//
 
   public String getName{ //retorna o nome do usuario
