@@ -4,6 +4,7 @@ public class User{
   private String name;// nome do usuario
   private String id;//codigo de identificaçao do usuario dentro do sistema
   private String email;//email do usuario
+  private String password; // senha do usuario
   private Boolean adm; // if true user = adm, if false user = user;
 
 
@@ -25,6 +26,10 @@ public class User{
    return this.adm;
   }
 
+  public String getPassword{
+    return this.password;
+  }
+
   public void setName(String name){// define um novo valor para o nome o usuario
     this.name = name;
   }
@@ -39,9 +44,13 @@ public class User{
     this.adm = adm;
   }
 
+  publi void setPassword(String passwrod){
+    this.password = password;
+  }
 
 
 
 
-  
+
+
 }
