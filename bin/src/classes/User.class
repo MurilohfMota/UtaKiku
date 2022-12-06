@@ -35,4 +35,7 @@ public class User{
     this.email = email;
   }
 
+  public void setAdm(Boolean adm){
+    this.adm = adm;
+  }
 }
