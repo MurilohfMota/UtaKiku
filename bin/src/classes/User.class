@@ -4,7 +4,7 @@ public class User{
   private String name;
   private String id;
   private String email;
-
+  private Boolean adm;
 
 
   //-------------------------------------getters and setters-----------------------//
@@ -17,12 +17,22 @@ public class User{
     return this.id;
   }
 
-  public String getEmail{
+  public String getEmail{ //retorna o enail do usuario
     return this.email;
   }
 
+  public Boolean getAdm{
+   return this.adm;
+  }
 
-
-
+  public void setName(String name){// define um novo valor para o nome o usuario
+    this.name = name;
+  }
+  public void setId(String id){ //define um novo valor para o ID o usuario
+    this.id = id;
+  }
+  public void setEmail(String email){// define um novo valor para o email o usuario
+    this.email = email;
+  }
 
 }
