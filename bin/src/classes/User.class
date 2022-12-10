@@ -50,7 +50,16 @@ public class User{
     this.password = password;
   }
 
+//----------------------------------------construtores------------------------------------------\\
 
+
+public User(Bolean adm,int id,String name, String password, String email){
+  this.setAdm(adm);
+  this.setEmail(email);
+  this.setId(id);
+  this.setName(name);
+  this.setPassword(password);
+}
 
 
 
