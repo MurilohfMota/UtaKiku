@@ -11,13 +11,39 @@ public class Music{
 public String getNome{
   return this.nome;
 }
+
 public String getGenero{
   return this.gereno;
 }
+
 public String getAutor{
   return this.autor;
 }
 
-public void setNome(nome){
+public int getId(){
+  return this.id;
+}
+
+public void setNome(String nome){
   this.nome = nome;
+}
+
+public void setGenero(String genero){
+  this.genero = genero;
+}
+
+public void setEmail(String autor){
+  this.autor = autor;
+}
+
+public void setId(int id){
+  this.id = id;
+}
+//----------------------------construtores-------------------------------\\
+public Music(){
+
+}
+
+public Music(String nome, String genero, String email, int id){
+
 }
