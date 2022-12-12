@@ -9,7 +9,7 @@ public class Music{
 }
 
 public String getNome{
-  return thi.nome;
+  return this.nome;
 }
 public String getGenero{
   return this.gereno;
